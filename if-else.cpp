@@ -9,6 +9,10 @@ int main ()
     {
         cout<<"Positive";
     }
+    if(num==0)
+    {
+        cout<<"Zero";
+    }
     else
         cout<<"Negative";
     return 0;
