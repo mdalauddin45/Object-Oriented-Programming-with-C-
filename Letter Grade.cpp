@@ -5,14 +5,12 @@ int main()
     int mark;
     cout<<"Enter Your Mark ";
     cin>>mark;
-    if(mark>100)
+    if(mark>100 || mark<0)
     {
         cout<<"Invalid Mark";
+        return mark;
     }
-      if(mark<0)
-    {
-        cout<<"Invalid Mark";
-    }
+
     if(mark>=80)
     {
         cout<<"A+";
